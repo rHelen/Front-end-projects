@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#menu {
+    /* background-color: #ffffff; */
+    display: table;
+    width: 100%;
+}
+
+#menu ul li {
+    target: "_blank"
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    padding: 5px 20px;
+    font: 13px verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    /* background-color: #ffffff; */
+    text-decoration: none;
+    float: left;
+}
+
+#menu ul li a:hover {
+    color: #000000;
+    background: rgb(255, 210, 234);
+}
+
+.video {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitulo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.sub {
+    display: flex;
+    justify-content: center;
+}
+
+#menu li a:hover {
+    background: #333;
+    color: #fff;
+    -moz-box-shadow: 0 3px 10px 0 #CCC;
+    -webkit-box-shadow: 0 3px 10px 0 #ccc;
+    text-shadow: 0px 0px 5px #fff;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+}
+
+/*Menu config diferente*/
+
+#menu li {
+    position: relative;
+    float: left;
+}
+
+#menu li ul {
+
+    position: absolute;
+
+    top: 25px;
+
+    background-color: #fff;
+
+    display: none;
+
+}
+
+#menu li:hover ul,
+
+#menu li.over ul {
+
+    display: block;
+
+}
+
+#menu li ul li {
+
+    border: 1px solid #c0c0c0;
+
+    display: block;
+
+    width: 150px;
+
+}
+
+#Lua {
+    text-decoration: none;
+
+}
+
+.spanGlowstore {
+    font-size: 50px;
+    color: pink;
+    display: flex;
+    justify-content: center;
+}
+
+#Lua {
+    background: #ffcbf2;
+    border-radius: 6px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 16px;
+}
+
+.imglua {
+    border-radius: 6px;
+}
+
+/*Teste de menu*/
+
+#menu2 li{
+    display:inline;
+    text-decoration: none;
+    padding: 5px;
+    justify-content: center;
+}
+
