@@ -140,8 +140,47 @@
 
 #menu2 li{
     display:inline;
-    text-decoration: none;
-    padding: 5px;
+    padding: 15px;
     justify-content: center;
 }
+
+#menu2 li a{
+    text-decoration: none;
+    color: #000000;
+}
+#menu2 li a:hover{
+    color: gray;
+}
+/* .video{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+} */
+.tm-social{
+    height: 35px;
+}
+
+.rodape{
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.center{
+    text-align: center;
+}
+
+
 
